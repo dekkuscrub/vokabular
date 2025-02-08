@@ -7,6 +7,9 @@ out/
 # Cursor
 .cursor/
 
+# VSCode
+.vscode/
+
 # MacOS
 .DS_Store
 
