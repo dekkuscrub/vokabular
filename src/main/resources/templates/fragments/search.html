@@ -1,0 +1,13 @@
+<div class="search-container">
+    <input type="text" 
+           name="search" 
+           placeholder="Search for a word..."
+           hx-get="/api/search"
+           hx-trigger="keyup changed delay:500ms"
+           hx-target="#search-results"
+           class="search-input">
+    
+    <div id="search-results" class="search-results">
+        <!-- Search results will be inserted here -->
+    </div>
+</div> 
