@@ -14,10 +14,10 @@ The application stores saved words locally and uses HTMX for smooth, JavaScript-
   * Integration with svenska.se/saol API
 
 - Frontend:
-  * HTMX for dynamic interactions
-  * Simple CSS for styling (utilizing CSS Grid and Flexbox)
+  * HTMX as primary tool for server communication
+  * TailwindCSS for simple styling
   * Minimal HTML templates
-  * No JavaScript required
+  * No JavaScript required, but minimal use of Alpine.js where it significantly improves UX
 
 ## Core Features
 
